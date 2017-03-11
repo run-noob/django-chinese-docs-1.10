@@ -1,6 +1,6 @@
 # Summary
 
-## [新手入门](新手入门/README.md)
++ ## 新手入门
     * [introduction](新手入门/README.md)
     * [从零开始](新手入门/从零开始.md)
         * [概览](新手入门/概览.md)

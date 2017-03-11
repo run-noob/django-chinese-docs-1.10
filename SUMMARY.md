@@ -1,6 +1,5 @@
 # Summary
 
-
 ## 新手入门
 * [introduction](新手入门/README.md)
 * [从零开始](新手入门/从零开始.md)
@@ -12,6 +11,7 @@
     
 
 ## 模型层
+* [introduction](模型层/README.md)
 
 ## 视图层
 

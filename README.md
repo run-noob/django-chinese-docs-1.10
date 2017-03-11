@@ -1,3 +1,3 @@
-# My Awesome Book
+# Django官方翻译。
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+仅能上班业余时间翻译，工作量略大，急需志同道合的翻译小伙伴加入。一方面可提高自己的翻译能力，第二也是对Django的进一步熟悉

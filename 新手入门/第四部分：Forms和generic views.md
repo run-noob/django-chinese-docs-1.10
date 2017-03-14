@@ -43,7 +43,7 @@ A quick rundown:
 
 + forloop.counter indicates how many times the {% raw %}[for](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for){% endraw %} tag has gone through its loop
 
-forloop.counter 表示{% raw %}[for](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for){% endraw %} 标签已经循环的次数
++ forloop.counter 表示{% raw %}[for](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for){% endraw %} 标签已经循环的次数
 
 + Since we’re creating a POST form (which can have the effect of modifying data), we need to worry about Cross Site Request Forgeries. Thankfully, you don’t have to worry too hard, because Django comes with a very easy-to-use system for protecting against it. In short, all POST forms that are targeted at internal URLs should use the {% raw %}[{%csrf_token %}](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-csrf_token) {% endraw %}template tag.
 

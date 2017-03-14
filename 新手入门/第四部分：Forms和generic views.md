@@ -101,11 +101,9 @@ This code includes a few things we haven’t covered yet in this tutorial:
 Note that Django also provides [request.GET](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.GET) for accessing GET data in the same way – but we’re explicitly using [request.POST
 ](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.POST) in our code, to ensure that data is only altered via a POST call.
 
-同样的，Django也提供了[request.GET](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.GET)方法来获取GET数据，但我们在代码中明确地使用[request.POST
-](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.POST)，以保证数据只能通过POST调用改动。
+同样的，Django也提供了[request.GET](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.GET)方法来获取GET数据，但我们在代码中明确地使用[request.POST](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.POST)，以保证数据只能通过POST调用改动。
 
-request.POST['choice'] will raise [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError) if choice wasn’t provided in POST data. The above code checks for [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError) and redisplays the question form with an error message if choice
- isn’t given.
+request.POST['choice'] will raise [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError) if choice wasn’t provided in POST data. The above code checks for [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError) and redisplays the question form with an error message if choice isn’t given.
 
 如果POST数据没有choice，request.POST['choice'] 会抛出 [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError)异常。上面的代码会检查 [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError)，如果没有对应的choice，将会重新显示question表单和一个错误信息。
 

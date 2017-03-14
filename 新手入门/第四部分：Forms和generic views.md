@@ -35,11 +35,11 @@ A quick rundown:
 
 + The above template displays a radio button for each question choice. The value of each radio button is the associated question choice’s ID. The name of each radio button is "choice". That means, when somebody selects one of the radio buttons and submits the form, it’ll send the POST data choice=# where # is the ID of the selected choice. This is the basic concept of HTML forms.
 
-在detail网页模板中，我们为Question对应的每个Choice都添加了一个单选按钮用于选择。每个单选按钮的value属性是对应的各个Choice的ID。每个单选按钮的name是"choice"。这意味着，当有人选择一个单选按钮并提交表单时，它将发送一个POST数据choice=#，其中# 为选择的Choice的ID。这是HTML 表单的基本概念。
++ 在detail网页模板中，我们为Question对应的每个Choice都添加了一个单选按钮用于选择。每个单选按钮的value属性是对应的各个Choice的ID。每个单选按钮的name是"choice"。这意味着，当有人选择一个单选按钮并提交表单时，它将发送一个POST数据choice=#，其中# 为选择的Choice的ID。这是HTML 表单的基本概念。
 
 + We set the form’s action to {% raw %}{% url 'polls:vote' question.id %}{% raw %}, and we set method="post". Using method="post" (as opposed to method="get") is very important, because the act of submitting this form will alter data server-side. Whenever you create a form that alters data server-side, use method="post". This tip isn’t specific to Django; it’s just good Web development practice.
 
-我们设置表单的action为{% raw %}{% url 'polls:vote' question.id %}{% raw %}，并设置 method="post"。使用method="post"（与其相对的是method="get"）是非常重要的，因为这个提交表单的行为会改变服务器端的数据。 无论何时，当你需要创建一个改变服务器端数据的表单时，请使用 method="post"。这不是Django的特定技巧；这是优秀的网站开发实践。
++ 我们设置表单的action为{% raw %}{% url 'polls:vote' question.id %}{% raw %}，并设置 method="post"。使用method="post"（与其相对的是method="get"）是非常重要的，因为这个提交表单的行为会改变服务器端的数据。 无论何时，当你需要创建一个改变服务器端数据的表单时，请使用 method="post"。这不是Django的特定技巧；这是优秀的网站开发实践。
 
 + forloop.counter indicates how many times the {% raw %}[for](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for){% endraw %} tag has gone through its loop
 

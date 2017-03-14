@@ -368,7 +368,7 @@ Method-calling happens in the {% raw %} [{% for %}] {% endraw %}(https://do
  objects and is suitable for use in the {% raw %} [{%for %}
 ](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for) {% endraw %} tag.
 
-方法调用发生在[\{%for %\}](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for)循环中：question.choice_set.all被解释为Python的代码question.choice_set.all()，它返回一个由Choice对象组成的可迭代对象，并将其用于{% raw %} [{%for %}](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for) {% endraw %}  标签。
+方法调用发生在```{% for %}```循环中：question.choice_set.all被解释为Python的代码question.choice_set.all()，它返回一个由Choice对象组成的可迭代对象，并将其用于{% raw %} [{%for %}](https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#std:templatetag-for) {% endraw %}  标签。
 
 See the [template guide](https://docs.djangoproject.com/en/1.10/topics/templates/) for more about templates.
 

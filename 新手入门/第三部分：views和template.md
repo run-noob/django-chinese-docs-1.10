@@ -240,9 +240,9 @@ Load the page by pointing your browser at “/polls/”, and you should see a bu
 
 浏览器访问“/polls”，你讲看到一个列表，包含了我们在[教程二](https://run-noob.gitbooks.io/django1-10/content/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%EF%BC%9Amodels%E5%92%8Cadmin.html)创建的 “What’s up” question，这个链接指向了Question的详细页
 
-#### **A shortcut: [render()]**(https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.render)[¶](https://docs.djangoproject.com/en/1.10/intro/tutorial03/#a-shortcut-render)
+#### **A shortcut: [render()](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.render)[¶](https://docs.djangoproject.com/en/1.10/intro/tutorial03/#a-shortcut-render)**
 
-#### **小技巧: [render()]**
+#### **小技巧: [render()](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.render)**
 It’s a very common idiom to load a template, fill a context and return an [HttpResponse](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpResponse) object with the result of the rendered template. Django provides a shortcut. Here’s the full index() view, rewritten:
 
 加载模板、填充一个context 然后返回一个含有模板渲染结果的[HttpResponse](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpResponse)对象是非常频繁的。
@@ -328,10 +328,12 @@ The [get_object_or_404()](https://docs.djangoproject.com/en/1.10/topics/http/sh
 
 [get_object_or_404()](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.get_object_or_404) 函数将Django模型作为它的第一个参数，任意数量关键词参数，它将传递给作为模型管理器的[get()](https://docs.djangoproject.com/en/1.10/ref/models/querysets/#django.db.models.query.QuerySet.get)函数，如果对象不存在，它就引发一个 [Http404](https://docs.djangoproject.com/en/1.10/topics/http/views/#django.http.Http404)异常。
 
-> **Philosophy
+> **Philosophy**
+
 > Why do we use a helper function [get_object_or_404()](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.get_object_or_404) instead of automatically catching the[ObjectDoesNotExist](https://docs.djangoproject.com/en/1.10/ref/exceptions/#django.core.exceptions.ObjectDoesNotExist) exceptions at a higher level, or having the model API raise [Http404](https://docs.djangoproject.com/en/1.10/topics/http/views/#django.http.Http404) instead of [ObjectDoesNotExist](https://docs.djangoproject.com/en/1.10/ref/exceptions/#django.core.exceptions.ObjectDoesNotExist)?
 
 > 为什么我们要用一个辅助函数 [get_object_or_404()](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.get_object_or_404)而不是在上层捕获[ObjectDoesNotExist](https://docs.djangoproject.com/en/1.10/ref/exceptions/#django.core.exceptions.ObjectDoesNotExist) 异常，或者让模型的API引发 [Http404](https://docs.djangoproject.com/en/1.10/topics/http/views/#django.http.Http404)而不是[ObjectDoesNotExist](https://docs.djangoproject.com/en/1.10/ref/exceptions/#django.core.exceptions.ObjectDoesNotExist)
+
 > Because that would couple the model layer to the view layer. One of the foremost design goals of Django is to maintain loose coupling. Some controlled coupling is introduced in the [django.shortcuts](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#module-django.shortcuts) module.
 
 > 因为那样会将模型层与视图层耦合。Django 最重要的设计目标就是保持松耦合。一些可控的耦合在 [django.shortcuts](https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#module-django.shortcuts) 有介绍。

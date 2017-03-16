@@ -1,4 +1,4 @@
-
+  
 
 Let’s learn by example.
 
@@ -436,4 +436,4 @@ Arbitrary keyword arguments can be passed in a dictionary to the target view. We
 Naming your URL lets you refer to it unambiguously from elsewhere in Django, especially from within templates. This powerful feature allows you to make global changes to the URL patterns of your project while only touching a single file.
 When you’re comfortable with the basic request and response flow, read [part 2 of this tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial02/)to start working with the database.
 
-对你的URL进行命名，可以让你能够在Django的任意处，尤其是模板内显式地引用它。这个强大的功能，仅仅通过创建一个文件就可以让你在项目里任意修改URL patterns这个全局变量的值。如果你已经掌握了基本的request和response的过程，那就阅读[教程第二部分](https://docs.djangoproject.com/en/1.10/intro/tutorial02/)数据库相关
+对你的URL进行命名，可以让你能够在Django的任意处，尤其是模板内显式地引用它。这个强大的功能，仅仅通过创建一个文件就可以让你在项目里任意修改URL patterns这个全局变量的值。如果你已经掌握了基本的request和response的过程，那就阅读[教程2](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%202.html)数据库相关

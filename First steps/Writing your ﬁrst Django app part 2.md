@@ -1,6 +1,6 @@
 This tutorial begins where [Tutorial 1](https://docs.djangoproject.com/en/1.10/intro/tutorial01/) left off. We’ll setup the database, create your first model, and get a quick introduction to Django’s automatically-generated admin site.
 
-紧接着教程[第一部分](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)，我们开始配置数据库，创建你的第一个model，并且快速了解下Django的后台管理系统
+紧接着教程[教程1](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%201.html)，我们开始配置数据库，创建你的第一个model，并且快速了解下Django的后台管理系统
 
 **Database setup**
 
@@ -16,8 +16,7 @@ If you wish to use another database, install the appropriate [database bindings
 
 如果你想用其他的数据库，请先安装好相应的[数据库软件](https://docs.djangoproject.com/en/1.10/topics/install/#database-installation) ，并修改settings文件中[DATABASES](https://docs.djangoproject.com/en/1.10/ref/settings/#std:setting-DATABASES) 'default' 选项，用于连接你的数据库：
 
-+ [ENGINE](https://docs.djangoproject.com/en/1.10/ref/settings/#std:setting-DATABASE-ENGINE) – Either 'django.db.backends.sqlite3'
-, 'django.db.backends.postgresql','django.db.backends.mysql', or 'django.db.backends.oracle'. Other backends are [also available](https://docs.djangoproject.com/en/1.10/ref/databases/#third-party-notes).
++ [ENGINE](https://docs.djangoproject.com/en/1.10/ref/settings/#std:setting-DATABASE-ENGINE) – Either 'django.db.backends.sqlite3','django.db.backends.postgresql', 'django.db.backends.mysql', or 'django.db.backends.oracle'.  Other backends are [also available](https://docs.djangoproject.com/en/1.10/ref/databases/#third-party-notes).
 
 + 可以是’django.db.backends.sqlite3’或者’django.db.backends.postgresql’,’django.db.backends.mysql’, or ’django.db.backends.oracle’，当然 [其它可用](https://docs.djangoproject.com/en/1.10/ref/databases/#third-party-notes)的也行。
 
@@ -781,5 +780,5 @@ Change the “Date published” by clicking the “Today” and “Now” shortc
 ![History page for question object](https://docs.djangoproject.com/en/1.10/_images/admin06t.png)When you’re comfortable with the models API and have familiarized yourself with the admin site, read [part 3 of this tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial03/) to learn about how to add more views to our polls app.
 
 当你适应了models的API，熟悉了admin站点后，请移步
-[教程第三部分](https://docs.djangoproject.com/en/1.10/intro/tutorial03/) 来学习如何给投票应用编写更多的views函数.
+[教程3](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%203.html) 来学习如何给投票应用编写更多的views函数.
 

@@ -2,7 +2,7 @@
 
 This tutorial begins where [Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/) left off. We’re continuing the Web-poll application and will focus on simple form processing and cutting down our code.
 
-紧接着[Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/)，我们继续开发这个投票的web应用，本章将关注简单的表单处理和代码优化
+紧接着[教程3](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%203.html)，我们继续开发这个投票的web应用，本章将关注简单的表单处理和代码优化
 
 #### **Write a simple form**[¶](https://docs.djangoproject.com/en/1.10/intro/tutorial04/#write-a-simple-form)
 
@@ -340,5 +340,5 @@ For full details on generic views, see the [generic views documentation](https:
 
 When you’re comfortable with forms and generic views, read [part 5 of this tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial05/) to learn about testing our polls app.
 
-当你熟悉了表单和通用视图，请看[教程5](https://run-noob.gitbooks.io/django1-10/content/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%94%E9%83%A8%E5%88%86%EF%BC%9ATesting.html)学习如何测试我们的投票应用
+当你熟悉了表单和通用视图，请看[教程5](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%205.html)学习如何测试我们的投票应用
 

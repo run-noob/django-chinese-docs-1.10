@@ -2,7 +2,7 @@
 
 This tutorial begins where [Tutorial 2](https://docs.djangoproject.com/en/1.10/intro/tutorial02/) left off. We’re continuing the Web-poll application and will focus on creating the public interface – “views.”
 
-紧接着[教程二](https://run-noob.gitbooks.io/django1-10/content/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%EF%BC%9Amodels%E5%92%8Cadmin.html)，我们继续开发投票这个web应用，并将注意力集中在创建对外访问的“视图”界面上。 
+紧接着[教程2](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%202.html)，我们继续开发投票这个web应用，并将注意力集中在创建对外访问的“视图”界面上。 
 
 #### **Overview**[¶](https://docs.djangoproject.com/en/1.10/intro/tutorial03/#overview)
 
@@ -461,4 +461,4 @@ polls/templates/polls/index.html
 ```
 When you’re comfortable with writing views, read [part 4 of this tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial04/) to learn about simple form processing and generic views.
 
-当你对你写的视图感到满意后，请阅读[*教程4*](https://run-noob.gitbooks.io/django1-10/content/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86%EF%BC%9AForms%E5%92%8Cgeneric%20views.html)来了解简单的表单处理和通用视图。
+当你对你写的视图感到满意后，请阅读[教程4](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/First%20steps/Writing%20your%20%EF%AC%81rst%20Django%20app%20part%204.html)来了解简单的表单处理和通用视图。

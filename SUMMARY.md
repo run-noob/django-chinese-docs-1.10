@@ -6,20 +6,20 @@
 
 ## 新手入门
 
-* [从零开始](新手入门/从零开始.md)
-  * [概览](新手入门/概览.md)
-  * [安装](新手入门/安装.md)
-* [初级教程](新手入门/教程.md)
-  * [第一部分：请求和响应](新手入门/第一部分：模型.md)
-  * [第二部分：models和admin](新手入门/第二部分：models和admin.md)
-  * [第三部分：views和template](新手入门/第三部分：views和template.md)
-  * [第四部分：Forms和generic views](新手入门/第四部分：Forms和generic views.md)
-  * [第五部分：Testing](新手入门/第五部分：Testing.md)
-  * [第六部分：静态文件](新手入门/第六部分：静态文件.md)
-  * [第七部分：定制admin](新手入门/第七部分：定制admin.md)
-* [高级教程](新手入门/高级教程.md)
-  * [编写可安装的应用](新手入门/编写可安装的应用.md)
-  * [如何为Django编写补丁](新手入门/如何为Django编写补丁.md)
+* [从零开始](First steps/From scratch.md)
+  * [概览](First steps/Django at a glance.md)
+  * [安装](First steps/Quick install guide.md)
+* [初级教程](First steps/Tutorial.md)
+  * [第一部分：请求和响应](First steps/Writing your ﬁrst Django app part 1.md)
+  * [第二部分：models和admin](First steps/Writing your ﬁrst Django app part 2.md)
+  * [第三部分：views和template](First steps/Writing your ﬁrst Django app part 3.md)
+  * [第四部分：Forms和generic views](First steps/Writing your ﬁrst Django app part 4.md)
+  * [第五部分：Testing](First steps/Writing your ﬁrst Django app part 5.md)
+  * [第六部分：静态文件](First steps/Writing your ﬁrst Django app part 6.md)
+  * [第七部分：定制admin](First steps/Writing your ﬁrst Django app part 7.md)
+* [高级教程](First steps/Advanced Tutorials.md)
+  * [编写可安装的应用](First steps/How to write reusable apps.md)
+  * [如何为Django编写补丁](First steps/Writing your ﬁrst patch for Django.md)
 
 ## 模型层
 

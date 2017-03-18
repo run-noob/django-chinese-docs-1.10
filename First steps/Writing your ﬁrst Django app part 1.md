@@ -167,8 +167,11 @@ These files are:
 
 **
 The development server**
+
 **开发服务器**
+
 Let’s verify your Django project works. Change into the outer mysite directory, if you haven’t already, and run the following commands:
+
 让我们来验证一下你的django项目是否正常。进入外层的mysite目录，如果你还
 
 

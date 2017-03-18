@@ -4,6 +4,7 @@
 
 看了pdf版本的官方文档，大概1500页，工作量略大，有想练练手的，欢迎入坑！
 
+已经同步到gitbook，想阅读的请转到[gitbook: Django 1.10 中文文档](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/)
 ### **Django documentation**
 
 Everything you need to know about Django.
@@ -51,7 +52,7 @@ Are you new to Django or to programming? This is the place to start!
 
 
 
-# **已翻译分割线**
+# **上面算第一部分，争取3月底翻译完成————分割线**
 
 
 The model layer[¶](https://docs.djangoproject.com/en/1.10/#the-model-layer)

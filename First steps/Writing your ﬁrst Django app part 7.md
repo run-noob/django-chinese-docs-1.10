@@ -356,10 +356,9 @@ We use this approach to teach you how to override templates. In an actual projec
 
 在这里，我们使用这个方法教会你如何重写模板。但是在实际的项目中，你可以使用 [django.contrib.admin.AdminSite.site_header](https://docs.djangoproject.com/en/1.10/ref/contrib/admin/#django.contrib.admin.AdminSite.site_header)，方便的对这个页面title进行自定义。
 
-This template file contains lots of text like {% block branding %} and {{ title }}. The {%
- and {{ tags are part of Django’s template language. When Django renders admin/base_site.html, this template language will be evaluated to produce the final HTML page, just like we saw in [Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/).
+This template file contains lots of text like{% raw %}{% block branding %} and {{ title }}{% endraw %},{% raw %} ,{% and {{  {% endraw %} tags are part of Django’s template language. When Django renders admin/base_site.html, this template language will be evaluated to produce the final HTML page, just like we saw in [Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/).
 
-这个模板文件包含了大量的如{% raw %}{% block branding %} and {{ title }}{% endraw %},{% raw %} {% and {{  {% endraw %}是Django的模板语言。当Django渲染 admin/base_site.html文件时，这些模板语言会生成最终的HTML页面，就像[Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/)所说
+这个模板文件包含了大量的如{% raw %}{% block branding %} and {{ title }}{% endraw %},{% raw %} 其中{% and {{  {% endraw %}是Django的模板语言。当Django渲染 admin/base_site.html文件时，这些模板语言会生成最终的HTML页面，就像[Tutorial 3](https://docs.djangoproject.com/en/1.10/intro/tutorial03/)所说
 
 Note that any of Django’s default admin templates can be overridden. To override a template, just do the same thing you did with base_site.html – copy it from the default directory into your custom directory, and make changes.
 

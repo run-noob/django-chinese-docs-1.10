@@ -1,10 +1,35 @@
 # 简介
+戳此[Django 1.10 中文文档](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/)转到gitbook阅读
 
-翻译Django官方文档完全出于自己兴趣。一方面是想提升下英语水平，另一方面也能对Django有进一步的熟悉
+Django官方文档应该是学习Django最好的教程了，目前最新版为1.10，也没找到比较好中文版本，刚好借此机会练习下翻译能力。
 
-看了pdf版本的官方文档，大概1500页，工作量略大，有想练练手的，欢迎入坑！
+本人英语水平有限，不过我将原文也复制下来了，大家可以对照着原版英文看，有翻译错的地方，欢迎纠正
 
-已经同步到gitbook，想阅读的请转到[gitbook: Django 1.10 中文文档](https://run-noob.gitbooks.io/django-chinese-docs-1-10/content/)
+看了pdf版本的官方文档，大概1800页，但是去掉“How to guides”和“Django FAQ”的话，教程部分大概530页，目前进度为80/530，有对翻译感兴趣的小伙伴，求入坑~
+
+####目前进度：
+
+* [第一章 新手入门](First steps/From scratch.md)【**已完成**】
+  * [概览](First steps/Django at a glance.md)
+  * [安装](First steps/Quick install guide.md)
+  * [初级教程](First steps/Tutorial.md)
+  * [第一部分：请求和响应](First steps/Writing your ﬁrst Django app part 1.md)
+  * [第二部分：models和admin](First steps/Writing your ﬁrst Django app part 2.md)
+  * [第三部分：views和template](First steps/Writing your ﬁrst Django app part 3.md)
+  * [第四部分：Forms和generic views](First steps/Writing your ﬁrst Django app part 4.md)
+  * [第五部分：Testing](First steps/Writing your ﬁrst Django app part 5.md)
+  * [第六部分：静态文件](First steps/Writing your ﬁrst Django app part 6.md)
+  * [第七部分：定制admin](First steps/Writing your ﬁrst Django app part 7.md)
+  * [高级教程](First steps/Advanced Tutorials.md)
+  * [编写可安装的应用](First steps/How to write reusable apps.md)
+  * [如何为Django编写补丁](First steps/Writing your ﬁrst patch for Django.md)
+
+* [第二章 模型层](models/README.md)
+
+  * 尚未开始
+
+
+
 ### **Django documentation**
 
 Everything you need to know about Django.
@@ -15,11 +40,11 @@ Everything you need to know about Django.
 
 Django has a lot of documentation. A high-level overview of how it’s organized will help you know where to look for certain things:
 
-Django有许多文档。本篇高度概括了其文档结构，这对你想搜索特定内容很有帮助：
+Django有许多文档。本篇高度概括了其文档结构，这对你想搜索特定内容的时候很有帮助：
 
 + [**Tutorials**](https://docs.djangoproject.com/en/1.10/intro/) take you by the hand through a series of steps to create a Web application. Start here if you’re new to Django or Web application development. Also look at the “[First steps](https://docs.djangoproject.com/en/1.10/#index-first-steps)” below.
 
-+ [**教程篇**]((https://docs.djangoproject.com/en/1.10/intro/) )会手把手的教你创建一个web应用的所有步骤。如果你是Django新手或web应用开发的菜鸟，从这里开始看吧。[First steps]也需要看看
++ [教程篇](https://docs.djangoproject.com/en/1.10/intro/) 会手把手的教你创建一个web应用的所有步骤。如果你是Django新手或web应用开发的菜鸟，从这里开始看吧。[First steps]也需要看看
 
 + [Topic guides](https://docs.djangoproject.com/en/1.10/topics/) discuss key topics and concepts at a fairly high level and provide useful background information and explanation.
 

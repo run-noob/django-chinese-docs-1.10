@@ -25,10 +25,10 @@
 
 * [introduction](models/README.md)
 * [Models]()
-  * [Introduction to models](TheModelLayer/IntroductionToModels.md)
-  * [Field types](TheModelLayer/FieldTypes.md)
-  * [Meta options](TheModelLayer/MetaOptions.md)
-  * [Model class](TheModelLayer/ModelClass.md)
+  * [模型简介](TheModelLayer/IntroductionToModels.md)
+  * [字段类型](TheModelLayer/FieldTypes.md)
+  * [Meta选项](TheModelLayer/MetaOptions.md)
+  * [模型类](TheModelLayer/ModelClass.md)
 
 ## 视图层
 
@@ -43,7 +43,7 @@
   * [Request/response对象](TheViewlLayer/RequestResponseObjects.md)
   * [TemplateResponse对象](TheViewlLayer/TemplateResponseObjects.md)
 
-* [文件上传](TheViewlLayer/FileUploads)
+* [文件上传]()
   * [概览](TheViewlLayer/Overview.md)
   * [文件对象](TheViewlLayer/FileObjects.md)
   * [存储API](TheViewlLayer/StorageAPI.md)
@@ -57,7 +57,7 @@
   * [API参考](TheViewlLayer/APIReference.md)
   * [API参考](TheViewlLayer/FlattenedIndex.md)
 * [进阶]()
-  * [生成CSV](TheViewlLayer/GeneratingCSV .md)
+  * [生成CSV](TheViewlLayer/GeneratingCSV.md)
   * [生成PDF](TheViewlLayer/GeneratingPDF.md)
 * [中间件]()
   * [概览](TheViewlLayer/MiddlewareOverview.md)

@@ -241,12 +241,11 @@ recursive-include docs *
 ```
 Note that the docs directory won’t be included in your package unless you add some files to it. Many Django apps also provide their documentation online through sites like [readthedocs.org](https://readthedocs.org/).
 
-注意**docs**不会包含进你的包中除非你添加一些文件到它下面。
+注意**docs**不会打包到你的包中除非你添加一些文件到它下面。
 许多Django应用还通过类似[readthedocs.org](https://readthedocs.org/)这样的站点提供它们的在线文档.
 
 8. Try building your package with python setup.py sdist
- (run from inside django-polls). This creates a directory called dist
- and builds your new package, django-polls-0.1.tar.gz.
+ (run from inside django-polls). This creates a directory called dist and builds your new package, django-polls-0.1.tar.gz.
 
 通过命令python setup.py sdist（在django-polls目录内执行）来打包，这会创建一个dist目录并构建一个新包：django-polls-0.1.tar.gz。
 
@@ -330,4 +329,4 @@ Earlier, we installed the polls app as a user library. This has some disadvantag
 
 Typically, these situations only arise once you’re maintaining several Django projects. When they do, the best solution is to use [virtualenv](https://virtualenv.pypa.io/). This tool allows you to maintain multiple isolated Python environments, each with its own copy of the libraries and package namespace.
 
-当你维护几个Django项目时，这种情况会进程出现。当你碰到了这个问题，最好的解决办法是使用[virtualenv](http://www.virtualenv.org/)。这个工具允许你维护多个分离的Python环境，每个都具有它自己的库和包的命名空间。
+当你维护几个Django项目时，这种情况会经常出现。遇到这个问题，最好的解决办法是使用[virtualenv](http://www.virtualenv.org/)。这个工具允许你维护多个分离的Python环境，每个都具有它自己的库和包的命名空间。

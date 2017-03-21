@@ -24,10 +24,46 @@
 ## 模型层
 
 * [introduction](models/README.md)
+* [Models]()
+  * [Introduction to models](TheModelLayer/IntroductionToModels.md)
+  * [Field types](TheModelLayer/FieldTypes.md)
+  * [Meta options](TheModelLayer/MetaOptions.md)
+  * [Model class](TheModelLayer/ModelClass.md)
 
 ## 视图层
 
-* [introduction](views/README.md)
+* [introduction](models/README.md)
+* [基础]()
+  * [URLconfs](TheViewlLayer/IntroductionToModels.md)
+  * [View 函数](TheViewlLayer/ViewFunctions.md)
+  * [Shortcuts](TheViewlLayer/Shortcuts.md)
+  * [装饰器](TheViewlLayer/Decorators.md)
+* [Reference]()
+  * [內建视图](TheViewlLayer/BuiltinViews.md)
+  * [Request/response对象](TheViewlLayer/RequestResponseObjects.md)
+  * [TemplateResponse对象](TheViewlLayer/TemplateResponseObjects.md)
+
+* [文件上传](TheViewlLayer/FileUploads)
+  * [概览](TheViewlLayer/Overview.md)
+  * [文件对象](TheViewlLayer/FileObjects.md)
+  * [存储API](TheViewlLayer/StorageAPI.md)
+  * [文件管理](TheViewlLayer/ManagingFiles.md)
+  * [自定义存储](TheViewlLayer/CustomStorage.md)
+* [基于视图]()
+  * [概览](TheViewlLayer/viewOverview.md)
+  * [內建展示视图](TheViewlLayer/BuiltinDisplayViews.md)
+  * [內建编辑视图](TheViewlLayer/Built-inEditingViews.md)
+  * [使用mixmin](TheViewlLayer/UsingMixins.md)
+  * [API参考](TheViewlLayer/APIReference.md)
+  * [API参考](TheViewlLayer/FlattenedIndex.md)
+* [进阶]()
+  * [生成CSV](TheViewlLayer/GeneratingCSV .md)
+  * [生成PDF](TheViewlLayer/GeneratingPDF.md)
+* [中间件]()
+  * [概览](TheViewlLayer/MiddlewareOverview.md)
+  * [文件对象](TheViewlLayer/BuiltinMiddlewareClasses.md)
+
+
 
 
 

@@ -52,7 +52,7 @@
 * [基于视图]()
   * [概览](TheViewlLayer/viewOverview.md)
   * [內建展示视图](TheViewlLayer/BuiltinDisplayViews.md)
-  * [內建编辑视图](TheViewlLayer/Built-inEditingViews.md)
+  * [內建编辑视图](TheViewlLayer/BuiltinEditingViews.md)
   * [使用mixmin](TheViewlLayer/UsingMixins.md)
   * [API参考](TheViewlLayer/APIReference.md)
   * [API参考](TheViewlLayer/FlattenedIndex.md)

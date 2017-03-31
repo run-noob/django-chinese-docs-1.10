@@ -197,8 +197,6 @@ In both cases, any extra keyword arguments that have been given as per [Passing
 
 #### **What the URLconf searches against[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#what-the-urlconf-searches-against)** 
 
-#### **What the URLconf searches against[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#what-the-urlconf-searches-against)** 
-
 
 #### **URLconf如何搜索[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#what-the-urlconf-searches-against)** 
 
@@ -272,8 +270,7 @@ Each regular expression in a urlpatterns is compiled the first time it’s acc
 
 urlpatterns 中的每个正则表达式在第一次访问它们时被编译。这使得系统相当快。
 
-#### **Syntax of the urlpatterns
- variable[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#syntax-of-the-urlpatterns-variable)**
+#### **Syntax of the urlpatterns variable[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#syntax-of-the-urlpatterns-variable)**
 
 #### **urlpatterns变量的语法[¶](https://docs.djangoproject.com/en/1.11/topics/http/urls/#syntax-of-the-urlpatterns-variable)**
 
